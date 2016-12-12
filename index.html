@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title>
+		Code a Responsive Website with Twitter Bootstrap 3
+	</title>
+
+	<meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="includes/css/styles.css">
+
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>
+		window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')
+	</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div class="navbar navbar-fixed-top my_nav_bar">
+
+			<div class="container my_nav_cont">
+
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar">
+						</span>
+
+						<span class="icon-bar">
+						</span>
+
+						<span class="icon-bar">
+						</span>
+					</button>
+
+				<a class="navbar-brand" href="#">
+					<img class="img_logo img-responsive" src="images/apple_logo.jpg" alt="Logo">
+				</a>
+
+				<div class="nav-collapse collapse navbar-responsive-collapse my_nav_cnt">
+
+					<ul class="nav navbar-nav my_nav_list">
+						<li><a href="#">Home</a></li>
+						<li><a href="includes/html/second.html">Mac</a></li>
+						<li><a href="includes/html/second.html">iPod</a></li>
+						<li><a href="includes/html/second.html">iPhone</a></li>
+						<li><a href="includes/html/second.html">Tv</a></li>
+					</ul>
+					<!-- end of nav_item -->
+
+				</div>
+				<!-- end of nav_collapse -->
+
+			</div>
+			<!-- end of nav_container -->
+
+		</div>
+		<!-- end of my_nav_bar -->
+
+		<div class="carousel slide" id="my_carousel">
+
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#my_carousel"></li>
+				<li data-slide-to="1" data-target="#my_carousel"></li>
+				<li data-slide-to="2" data-target="#my_carousel"></li>
+			</ol>
+
+			<div class="carousel-inner">
+				<div class="item active" id="carousel_slide1">
+
+					<img id="iphone_img" src="images/iphone_car.jpg" alt="iPhone">
+
+					<div class="carousel-caption">
+						<h3>iPhone 7</h3>
+						<p>The new iPhone 7 is now in sales...</p>
+					</div>
+					<!-- end of carousel_caption -->
+
+				</div>
+				<!-- end of item -->
+
+				<div class="item" id="carousel_slide2">
+
+					<img id="ip" src="images/ipod_car3.jpg" alt="iPod">
+
+					<div class="carousel-caption">
+						<h3>iPod 4th Gen</h3>
+						<p>The new iPod 4th Gen is now in sales...</p>
+					</div>
+					<!-- end of carousel_caption -->
+
+				</div>
+				<!-- end of item -->
+
+				<div class="item" id="carousel_slide3">
+
+					<img src="images/music_car.jpg" alt="music">
+
+					<div class="carousel-caption">
+						<h3>iMusic</h3>
+						<p>Enjoy the feelings of yours with music...</p>
+					</div>
+					<!-- end of carousel_caption -->
+
+				</div>
+				<!-- end of item -->
+			</div>
+			<!-- end of carousel_inner -->
+
+			<a class="left carousel-control" data-slide="prev" href="#my_carousel"><span class="icon-prev"></span></a>
+			<a class="right carousel-control" data-slide="next" href="#my_carousel"><span class="icon-next"></span></a>
+
+
+		</div>
+		<!-- end of carousel -->
+
+		<div class="row big_row">
+			<div class="col-12">
+				<div class="well">
+
+					<div class="page-header">
+						<h2>New Release <small>Currently Available in Stores</small></h2>
+					</div>
+					<!-- end of page_header -->
+
+					<div class="lead">
+						<p>Ha Ha... Waiting for Apple Products new release is over. On December month more products going to release. Its time to purchase the very new Apple products and being one step ahead than others.</p>
+					</div>
+					<!-- end of lead -->
+
+				</div>
+				<!-- end of well -->
+			</div>
+			<!-- end of col_12 -->
+		</div>
+		<!-- end of sample_row -->
+
+		<div class="row feature_head_row">
+			<div class="col-12">
+				<h2>More Upcoming Features</h2>
+				<p class="lead">Huraiiiiiii... Here some upcomming features that Apple products going to have is shown. Please wait very few months to get in your hand. And be prepare for enjoying the unlimited features that going to release by Apple.</p>
+			</div>
+			<!-- end of col_12 -->
+		</div>
+		<!-- end of feature_head_row -->
+
+		<div class="row feature_row">
+			<div class="col-sm-4 feature">
+				<div class="panel panel-resizable my_panel">
+
+					<div class="panel-heading">
+						<h3 class="panel-title">3D Camera</h3>
+					</div>
+					<!-- end of panel_heading -->
+
+					<img class="fet" src="images/threeD.jpg" alt="3D">
+
+					<p>ThreeD camera is that will show you the pictures in 3 Dimentional view which can give the extradinary view which we cant see before.We are waiting.</p>
+
+				</div>
+				<!-- end of panel -->
+			</div>
+			<!-- end of feature -->
+
+			<div class="col-sm-4 feature">
+				<div class="panel panel-resizable my_panel">
+
+					<div class="panel-heading">
+						<h3 class="panel-title">Slim iPhone</h3>
+					</div>
+					<!-- end of panel_heading -->
+
+					<img class="fet" src="images/slim.jpg" alt="Slim">
+
+					<p>Upcomming Apple make products are going to be slim very much. And Handy for even childern. But at the same time its strong enough to handle the damages.</p>
+
+				</div>
+				<!-- end of panel -->
+			</div>
+			<!-- end of feature -->
+
+			<div class="col-sm-4 feature">
+				<div class="panel panel-resizable my_panel">
+
+					<div class="panel-heading">
+						<h3 class="panel-title">Watch</h3>
+					</div>
+					<!-- end of panel_heading -->
+
+					<img class="fet" src="images/watch.png" alt="Watch">
+
+					<p>Watch... All the operations in future is going to done by the mobile devices particularly by watch and operations by watch. Strong and Effective one.</p>
+
+				</div>
+				<!-- end of panel -->
+			</div>
+			<!-- end of feature -->
+
+		</div>
+		<!-- end of feature_row -->
+
+		<div class="row more_info">
+			<div class="col-sm-6">
+				<h3>About Organization Location</h3>
+				<div class="tabbale">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#tab1" data-toggle="tab">Global</a></li>
+						<li><a href="#tab2" data-toggle="tab">India</a></li>
+					</ul>
+
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab1">
+							<h4>Our HQ Global</h4>
+							<p>Apple opens its first development centre in India in Hyderabad.And The Apple Campus is the corporate headquarters of Apple Inc., located at 1 Infinite Loop in Cupertino, California, United States. Its design resembles that of a university, with
+								the buildings arranged around green spaces, similar to a suburban business park.</p>
+							<p>Apple opens its first development centre in India in Hyderabad.And The Apple Campus is the corporate headquarters of Apple Inc., located at 1 Infinite Loop in Cupertino, California, United States. Its design resembles that of a university, with
+								the buildings arranged around green spaces, similar to a suburban business park.</p>
+							<p>Apple opens its first development centre in India in Hyderabad.And The Apple Campus is the corporate headquarters of Apple Inc., located at 1 Infinite Loop in Cupertino, California, United States. Its design resembles that of a university, with
+								the buildings arranged around green spaces, similar to a suburban business park.</p>
+							<p>Apple opens its first development centre in India in Hyderabad.And The Apple Campus is the corporate headquarters of Apple Inc., located at 1 Infinite Loop in Cupertino, California, United States. Its design resembles that of a university, with
+								the buildings arranged around green spaces, similar to a suburban business park.</p>
+							<p>The Apple Campus is the corporate headquarters of Apple Inc., located at 1 Infinite Loop in Cupertino, California, United States. Its design resembles that of a university, with the buildings arranged around green spaces, similar to a suburban
+								business park.</p>
+						</div>
+						<!-- end of tab_pane -->
+
+						<div class="tab-pane" id="tab2">
+							<h4>Our HQ India</h4>
+							<p>Apple opens its first development centre in India in Hyderabad.And The Apple Campus is the corporate headquarters of Apple Inc., located at 1 Infinite Loop in Cupertino, California, United States. Its design resembles that of a university, with
+								the buildings arranged around green spaces, similar to a suburban business park.</p>
+							<p>Apple opens its first development centre in India in Hyderabad.And The Apple Campus is the corporate headquarters of Apple Inc., located at 1 Infinite Loop in Cupertino, California, United States. Its design resembles that of a university, with
+								the buildings arranged around green spaces, similar to a suburban business park.</p>
+							<p>Apple opens its first development centre in India in Hyderabad.And The Apple Campus is the corporate headquarters of Apple Inc., located at 1 Infinite Loop in Cupertino, California, United States. Its design resembles that of a university, with
+								the buildings arranged around green spaces, similar to a suburban business park.</p>
+							<p>Apple opens its first development centre in India in Hyderabad.And The Apple Campus is the corporate headquarters of Apple Inc., located at 1 Infinite Loop in Cupertino, California, United States. Its design resembles that of a university, with
+								the buildings arranged around green spaces, similar to a suburban business park.</p>
+							<p>Apple opens its first development centre in India in Hyderabad.And The Apple Campus is the corporate headquarters of Apple Inc., located at 1 Infinite Loop in Cupertino, California, United States. Its design resembles that of a university, with
+								the buildings arranged around green spaces, similar to a suburban business park.</p>
+						</div>
+						<!-- end of tab_pane -->
+
+					</div>
+					<!-- end of tab_content -->
+
+				</div>
+				<!-- end of tabbable -->
+			</div>
+			<!-- end of col_sm_6 -->
+
+			<div class="col-sm-6">
+				<h3>About Organization Leaders</h3>
+				<p>Apple has very best leaders to takeover the organization. Until Jobs dead, He controlled the entire organization. After that Cook takeover the company. Worls best technologies are produced in the apple organization. Thats why till the apple is number
+					one company in the world</p>
+
+				<div class="list-group embed-responsive">
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading">Steve Jobs</h4>
+						<p class="list-group-item-text">Steven Paul "Steve" Jobs (/ˈdʒɒbz/; February 24, 1955 – October 5, 2011) was an American businessman, inventor, and industrial designer. He was the co-founder, chairman, and chief executive officer (CEO) of Apple Inc.; CEO and majority shareholder
+							of Pixar;[2] a member of The Walt Disney Company's board of directors following its acquisition of Pixar; and founder, chairman, and CEO of NeXT. </p>
+					</a>
+
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading">Tim Cook</h4>
+						<p class="list-group-item-text">Tim Cook(/ˈdʒɒbz/; February 24, 1955 – October 5, 2011) was an American businessman, inventor, and industrial designer. He was the co-founder, chairman, and chief executive officer (CEO) of Apple Inc.; CEO and majority shareholder of Pixar;[2] a
+							member of The Walt Disney Company's board of directors following its acquisition of Pixar; and founder, chairman, and CEO of NeXT. </p>
+					</a>
+
+					<iframe width="100%" height="auto" src="https://www.youtube.com/embed/f60dheI4ARg" frameborder="0" allowfullscreen></iframe>				</div>
+				<!-- end of list_group -->
+			</div>
+			<!-- end of col_sm_6 -->
+		</div>
+		<!-- end of more_info -->
+
+	</div><!-- end of main container -->
+
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<h6>Copyrights Reserved &copy; 2016 Apple Inc</h6>
+				</div><!-- end of col_sm_2 -->
+
+				<div class="col-sm-4">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ex ipsum earum aperiam deserunt, commodi qui. Labore aspernatur quaerat modi nihil eum est, similique accusamus in mollitia enim blanditiis error.</p>
+				</div><!-- end of col_sm_4 -->
+
+				<div class="col-sm-2">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Servise</a></li>
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul><!-- end of ul -->
+				</div><!-- end of col_sm_2 -->
+
+				<div class="col-sm-2">
+						<h6>Follow Us</h6>
+						<ul class="unstyled">
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">WhatsApp</a></li>
+							<li><a href="#">Google+</a></li>
+						</ul><!-- end of ul -->
+				</div><!-- end of col_sm_2 -->
+			</div><!-- end of row -->
+		</div><!-- end of main container -->
+	</footer><!-- end of footer -->
+
+
+</body><!-- end of body -->
+
+</html><!-- end of html -->
